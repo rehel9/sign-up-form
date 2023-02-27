@@ -47,10 +47,71 @@ table {
 	border-spacing: 0;
 }
 
-// Termina reset.css
+/* Termina reset.css */
 
 body {
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+
+    width: 80vw;
+    height: 90vh;
+
+    margin: 5vh 5vw;
+}
+
+.bg-image {
+    background-image: url("./images/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+    width: 30%;
+}
+
+.bg-image h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.transparent-bg {
+    background-color: black;
+    opacity: 0.6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10em;
+    padding: 10px;
+}
+
+.sign-up {
+    background-color: lightgray;
+
+    height: 100%;
+    width: 70%;
+
+}
+
+.sign-up-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+
+    margin: 10% 2%;
+}
+
+.fieldset-container {
+    background-color: white;
+
+    height: 100%;
+    width: 100%;
 }
