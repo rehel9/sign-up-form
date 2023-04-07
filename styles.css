@@ -49,6 +49,10 @@ table {
 
 /* Termina reset.css */
 
+em {
+    font-style: italic;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -92,7 +96,24 @@ body {
     padding: 10px;
 }
 
+.space {
+    margin-top: 30px;
+}
+
+legend {
+    font-size: 1.5rem;
+
+    position: relative;
+    top: 20px;
+    left: 0;
+
+    margin-bottom: 10px;
+}
+
 .sign-up {
+    display: flex;
+    flex-flow: column nowrap;
+
     background-color: lightgray;
 
     height: 100%;
@@ -101,17 +122,60 @@ body {
 }
 
 .sign-up-text {
+    height: 10%;
     font-weight: bold;
     font-size: 1.2rem;
-
-
-
-    margin: 10% 2%;
+    margin: 10px 2%;
+    padding: 50px 0;
 }
 
 .fieldset-container {
     background-color: white;
 
-    height: 100%;
-    width: 100%;
+    padding: 30px;
+}
+
+.fieldset-container:first-child{
+    padding-top: 30px;
+}
+
+.label-input {
+    display: flex;
+    flex-flow: column;
+
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 250px;
+
+}
+
+
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.create-account-button {
+    margin: 25px;
+
+
+    background-color: #596D48;
+    color: white;
+
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.already {
+    margin: 25px;
+}
+
+.log-in {
+    color: #596D48; 
 }
