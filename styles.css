@@ -152,7 +152,14 @@ input {
 
 }
 
+input:focus {
+    border: blue 1px solid;
+    box-shadow: 2px 2px 2px 2px grey;
+}
 
+.error {
+    border: red 1px solid;
+}
 
 .flex-row {
     display: flex;
